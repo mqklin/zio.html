@@ -4,7 +4,10 @@
   "description": "Zerion custom html components for react",
   "main": "app.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start:dev": "nodemon --exec babel-node app.js",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "repository": {
     "type": "git",
@@ -16,5 +19,24 @@
   "bugs": {
     "url": "https://github.com/zeriontech/zio.html/issues"
   },
-  "homepage": "https://github.com/zeriontech/zio.html#readme"
+  "homepage": "https://github.com/zeriontech/zio.html#readme",
+  "devDependencies": {
+    "@storybook/react": "^3.2.3",
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-eslint": "^7.2.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-styleguidist": "^6.0.8",
+    "styled-components": "^2.1.2"
+  }
 }
