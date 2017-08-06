@@ -1,0 +1,20 @@
+{
+  "name": "zio.html",
+  "version": "1.0.0",
+  "description": "Zerion custom html components for react",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeriontech/zio.html.git"
+  },
+  "keywords": [],
+  "author": "Gkio <webdevra@bk.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zeriontech/zio.html/issues"
+  },
+  "homepage": "https://github.com/zeriontech/zio.html#readme"
+}
