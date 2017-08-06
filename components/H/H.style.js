@@ -1,4 +1,4 @@
-import { Default } from "../Default/DefaultStyle";
+import { Default } from "../Default/default.style";
 const DefaultStyle = Default.withComponent("h3");
 
 const sizes = {

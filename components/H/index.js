@@ -4,14 +4,6 @@ import { HTag } from "./H.style";
 
 /**
  * The HTML H1,H2,H3,H4,H5,H6
- * @param {Object} extraStyle  Extra Tag Styling
- * @param {string} size The size of font size
- * xs: 0.67em
- * sm: 0.83em
- * md: 1.17em
- * lg: 1.5em
- * xl: 2em
- * @param {mix} children The innerHTML what would be inside the tag text or another Tag *Better not to use another tag*
  */
 class H extends Component {
   render() {
@@ -25,8 +17,22 @@ class H extends Component {
 }
 
 H.propTypes = {
+  /**
+  * Extra Tag Styling
+  */
   extraStyle:PropTypes.object,
+  /**
+  * The size of font size
+  * xs: 0.67em
+  * sm: 0.83em
+  * md: 1.17em
+  * lg: 1.5em
+  * xl: 2em
+  */
   size:PropTypes.oneOf(['xs','sm','md','lg','xl']).isRequired,
+  /**
+  * The innerHTML what would be inside the tag text or another Tag *Better not to use another tag*
+  */
   children: PropTypes.node.isRequired
 };
 

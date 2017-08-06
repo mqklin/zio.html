@@ -5,6 +5,12 @@
 or
 `yarn add zeriontech/zio.html`
 
+# Run Storybook
+`npm run storybook`
+or
+`yarn run storybook`
+
+
 # Usage
 
 ```jsx

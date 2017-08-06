@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`H should be equal to snapshow 1`] = `
+<h3
+  className="sc-htpNat gWWnZS"
+  size="xs"
+  style={undefined}
+>
+  I am small 👌
+</h3>
+`;
