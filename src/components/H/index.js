@@ -17,12 +17,7 @@ import './H.css';
  * @param {mix} children The innerHTML what would be inside the tag text or another Tag *Better not to use another tag*
  */
 class H extends Component {
-  static propTypes = {
-    className: string,
-    extraStyle: object,
-    size: oneOf(['xs','sm','md','lg','xl']),
-    children: node.isRequired
-  }
+
   render() {
     const {
       children:innerHTML,
@@ -36,6 +31,13 @@ class H extends Component {
       </HTag>
     )
   }
+}
+
+H.propTypes = {
+  className: string,
+  extraStyle: object,
+  size: oneOf(['xs','sm','md','lg','xl']),
+  children: node.isRequired
 }
 
 export default H;
