@@ -1,0 +1,8 @@
+.custom-component {
+  font-size: 59px;
+  color: purple;
+  transform: rotate(7deg);
+  margin: 100px;
+  display: inline-block;
+  border: 5px solid cyan;
+}

@@ -1,5 +1,13 @@
 import { css } from "styled-components";
-import gridVariables from "../Grid/GridVariables";
+let gridVariables = {};
+gridVariables.screenSmMin = 768;
+gridVariables.screenMdMin = 992;
+gridVariables.screenLgMin = 1200;
+
+gridVariables.screenXsMax = gridVariables.screenSmMin - 1;
+gridVariables.screenSmMax = gridVariables.screenMdMin - 1;
+gridVariables.screenMdMax = gridVariables.screenLgMin - 1;
+
 const sizes = {
   lg: gridVariables.screenLgMin,
   md: gridVariables.screenMdMax,
