@@ -1,4 +1,4 @@
-import H from './components/H';
+import H from './src/components/H';
 
 export {
   H
