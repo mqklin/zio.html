@@ -4,6 +4,7 @@
   "description": "Zerion custom html components for react",
   "main": "app.js",
   "scripts": {
+    "build": "webpack --config webpack.config.js process.env.NODE_ENV='\"production\"'",
     "test": "jest",
     "test:watch": "jest --watchAll",
     "start:dev": "nodemon --exec babel-node app.js",
@@ -40,6 +41,7 @@
   },
   "dependencies": {
     "css-loader": "^0.28.4",
+    "node-sass": "^4.5.3",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "sass-loader": "^6.0.6",
