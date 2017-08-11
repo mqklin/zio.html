@@ -4,7 +4,7 @@
   "description": "Zerion custom html components for react",
   "main": "app.js",
   "scripts": {
-    "build": "webpack --config webpack.config.js process.env.NODE_ENV='\"production\"'",
+    "start" : "babel-node app.js",
     "test": "jest",
     "test:watch": "jest --watchAll",
     "start:dev": "nodemon --exec babel-node app.js",
