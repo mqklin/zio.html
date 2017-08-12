@@ -14,23 +14,19 @@ const common = merge([
     output: {
       path: PATHS.build,
       filename: "zio_html.js",
-      library: 'zio_html',
+      library: 'zio_html'
     },
     module: {
       rules: [
         {
           test: /\.js$/,
-          exclude: /(node_modules|bower_components)/,
+          exclude: /(node_modules)/,
           use: {
             loader: "babel-loader",
             options: {
-              presets: ["es2016","react"]
+              presets: ["react"]
             }
           }
-        },
-        {
-          test: /\.png$/,
-          loaders: ["file-loader?name=i/[hash].[ext]"]
         }
       ]
     },

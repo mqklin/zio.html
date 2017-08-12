@@ -4,7 +4,7 @@
   "description": "Zerion custom html components for react",
   "main": "zio_html.js",
   "scripts": {
-    "build" : "webpack --config webpack.config.js --optimize-minimize",
+    "build": "webpack --config webpack.config.js --optimize-minimize",
     "test": "jest",
     "test:watch": "jest --watchAll",
     "start:dev": "nodemon --exec babel-node app.js",
@@ -33,19 +33,20 @@
     "babel-preset-stage-1": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
     "babel-preset-stage-3": "^6.24.1",
+    "css-loader": "^0.28.4",
     "enzyme": "^2.9.1",
     "jest": "^20.0.4",
+    "node-sass": "^4.5.3",
     "nodemon": "^1.11.0",
     "react-test-renderer": "^15.6.1",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
     "webpack-merge": "^4.1.0"
   },
   "dependencies": {
-    "css-loader": "^0.28.4",
-    "node-sass": "^4.5.3",
+
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "sass-loader": "^6.0.6",
-    "style-loader": "^0.18.2",
     "styled-components": "^2.1.2",
     "webpack": "^3.5.2"
   }
