@@ -5,7 +5,7 @@ const sass = require("./webpack/sass.config");
 
 const PATHS = {
   source: path.join(__dirname),
-  build: path.join(__dirname, "build")
+  build: path.join(__dirname)
 };
 
 const common = merge([
@@ -13,7 +13,7 @@ const common = merge([
     entry: PATHS.source + "/app.js",
     output: {
       path: PATHS.build,
-      filename: "main.js"
+      filename: "zio_html.js"
     },
     module: {
       rules: [
