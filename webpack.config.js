@@ -13,7 +13,8 @@ const common = merge([
     entry: PATHS.source + "/app.js",
     output: {
       path: PATHS.build,
-      filename: "zio_html.js"
+      filename: "zio_html.js",
+      libraryExport : "default"
     },
     module: {
       rules: [
