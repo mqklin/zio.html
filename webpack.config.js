@@ -1,4 +1,5 @@
 const path = require("path");
+const webpack = require("webpack")
 const merge = require("webpack-merge");
 const sass = require("./webpack/sass.config");
 
@@ -10,22 +11,20 @@ const PATHS = {
 
 const common = merge([
   {
-    entry: PATHS.source + "/app.js",
+    entry: {
+      app : PATHS.source + "/app.js"
+    },
     output: {
       path: PATHS.build,
-      filename: "zio_html.js",
-      library: 'zio_html'
+      filename: "zio_html.js"
     },
     module: {
       rules: [
         {
           test: /\.js$/,
-          exclude: /(node_modules)/,
+          exclude: /(node_modules|bower_components)/,
           use: {
-            loader: "babel-loader",
-            options: {
-              presets: ["react"]
-            }
+            loader: "babel-loader"
           }
         }
       ]
