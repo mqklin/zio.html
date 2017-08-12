@@ -1,5 +1,1 @@
-import H from './src/components/H';
-
-export {
-  H
-}
+export {default as H} from "./src/components/H";
