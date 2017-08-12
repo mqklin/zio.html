@@ -24,7 +24,7 @@ const common = merge([
           use: {
             loader: "babel-loader",
             options: {
-              presets: ["es2016"]
+              presets: ["es2016","react"]
             }
           }
         },
