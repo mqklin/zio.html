@@ -14,7 +14,8 @@ const common = merge([
     output: {
       path: PATHS.build,
       filename: "zio_html.js",
-      libraryExport : "default"
+      library: 'zio.html',
+      libraryTarget: 'umd'
     },
     module: {
       rules: [
