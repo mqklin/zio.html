@@ -2,7 +2,7 @@
   "name": "zio.html",
   "version": "1.0.0",
   "description": "Zerion custom html components for react",
-  "main": "zio_html.js",
+  "main": "lib/app.js",
   "scripts": {
     "build": "webpack --config webpack.config.js --optimize-minimize",
     "test": "jest",

@@ -28,7 +28,7 @@ const common = merge([
             loader: "babel-loader",
             options: {
                 plugins: ["transform-class-properties","transform-object-rest-spread","transform-export-extensions"],
-                presets: ["es2016","react"]
+                presets: ["es2015","stage-0","stage-1", "stage-2", "stage-3","react"]
             }
           }
         }
