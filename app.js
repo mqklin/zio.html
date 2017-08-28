@@ -1,8 +1,3 @@
-import H from './src/components/H';
+import { H } from './src/components/H';
 
-
-const zio_html = {
-  H: H
-}
-
-export default zio_html;
+export default H
